@@ -52,8 +52,8 @@ my @filters;
 my $tick;
 
 init();
-run();
-exit;
+# run();
+# exit;
 
 package ExTiedStdOut;
 
@@ -144,11 +144,11 @@ sub __dong
 	$dong = 1;
 }
 
-sub ok
-{
-	print $_[0] ? "ok $ok_count\n" : "not ok $ok_count\n";
-	$ok_count++;
-}
+# sub ok
+# {
+# 	print $_[0] ? "ok $ok_count\n" : "not ok $ok_count\n";
+# 	$ok_count++;
+# }
 
 sub skip
 {
